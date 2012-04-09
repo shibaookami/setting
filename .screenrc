@@ -1,1 +1,16 @@
-/home/hiro/.screenrc
+bind n screen
+bind h prev
+bind j next
+bind l windowlist
+vbell off
+startup_message off
+encoding utf8 utf8
+defencoding utf8
+defkanji utf8
+autodetach on 
+defscrollback 10000
+acladd hiro 
+
+escape ^Oo
+
+caption always "%{= wb} %-w%{=bu dr}%n %t%{-}%+w %= %{=b wk} [%l] %{=b wb}%Y/%m/%d %{=b wm}%c:%s"
