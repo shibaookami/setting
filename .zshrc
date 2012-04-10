@@ -101,9 +101,6 @@ setopt mark_dirs
 ## 最後のスラッシュを自動的に削除しない
 setopt noautoremoveslash
 
-## GIT用設定
-export GIT=git@github.com:shibaookami
-
 ## PROMPT設定
 PROMPT="%{[31m%}[%n@${HOST} : %/]%{[m%}
 $ "
