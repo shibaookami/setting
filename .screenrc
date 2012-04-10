@@ -7,9 +7,8 @@ startup_message off
 encoding utf8 utf8
 defencoding utf8
 defkanji utf8
-autodetach on 
+autodetach on
 defscrollback 10000
-acladd hiro 
 
 escape ^Oo
 
